@@ -1,0 +1,42 @@
+.wine-details {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    /* Adjust width as needed */
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #E48F45;
+    background-color: #4b3425af;
+
+}
+
+.wine-details img {
+    width: 150px;
+    /* Adjust image size as needed */
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+
+.wine-details h1 {
+    margin: 10px 0;
+    font-size: 1.8em;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.wine-details p {
+    margin: 20px 0;
+    font-family: 'alata', sans-serif;
+    font-size: 1.1em;
+}
+
+.wine-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #F5CCA0;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}

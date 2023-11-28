@@ -1,0 +1,49 @@
+.wine-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #E48F45;
+    
+}
+
+.wine-card img {
+    width: 80px;
+    /* Adjust image size as needed */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.wine-card h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+    font-family: 'Cormorant Infant';
+}
+
+.wine-card p {
+    margin: 5px 0;
+    font-family: 'alata', 'sans-serif';
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F5CCA0;
+}
+
+.details-button{
+    background-color: #E48F45;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
