@@ -3,40 +3,38 @@
     border-radius: 8px;
     padding: 20px;
     width: 80%;
-    height: auto;
+    height: 80vh;
     /* Adjust width as needed */
     margin: 20px auto;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #E48F45;
-    background-color: #4b3425af;
+    background-color: #f5cca027;
 
 }
 
 .wine-details img {
-    width: 150px;
+    width: 250px;
     /* Adjust image size as needed */
     margin-bottom: 10px;
     margin-left: 25%;
     border-radius: 5px;
 }
 
-.wine-details h1 {
-    margin: 10px 0;
-    font-size: 1.8em;
-    font-family: 'Cormorant Infant', serif;
-}
 
 .wine-details p {
     margin: 20px 0;
     font-family: 'alata', sans-serif;
     font-size: 1.1em;
+    margin-right: 15%;
 }
 
 .wine-title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: bold;
     color: #F5CCA0;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-right: 15%;
+    margin-top: 30px;
+    font-family: 'Cormorant Infant', serif;
 }

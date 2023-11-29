@@ -47,3 +47,14 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.details-button:hover {
+    background-color: #F5CCA0;
+    color: #E48F45;
+}
+
+.text-background {
+    background-color: #f5cca027;
+    border-radius: 5px;
+    height: 175px;
+}

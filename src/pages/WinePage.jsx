@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "../components/Header.jsx";
-// import Footer from "../components/Footer.jsx";
+import Footer from "../components/Footer.jsx";
 import WineCard from '../components/WineCard.jsx';
 import wines from '../assests/data/wine-data.js';
 
@@ -30,7 +30,7 @@ const ShopPage = () => {
                     );
                 })}
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
