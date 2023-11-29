@@ -8,6 +8,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { NavDropdown } from "react-bootstrap";
 
 function Header() {
   return (
@@ -26,7 +27,11 @@ function Header() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/" className="nav-link" aria-current="page">Home</Nav.Link>
                   <Nav.Link href="/wines" className="nav-link">Wines</Nav.Link>
-                  <Nav.Link href="/about" className="nav-link">About</Nav.Link>
+                  <NavDropdown title="About" id="about-dropdown">
+                    <NavDropdown.Item href="/about/winery">Winery</NavDropdown.Item>
+                    <NavDropdown.Item href="/about/barrels">Barrels</NavDropdown.Item>
+                  </NavDropdown>
+                  {/* <Nav.Link href="/about/winery" className="nav-link">About</Nav.Link> */}
                   <Nav.Link href="/contact" className="nav-link">Contact</Nav.Link>
                 </Nav>
                 <Form className="d-flex">

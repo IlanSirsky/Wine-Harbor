@@ -1,9 +1,7 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import '../styles/homePage.css';
 
 const HomeSection = (props) => {
-
     return (
         <section className={props.className}>
             <Image className="image" src={props.img} fluid />
