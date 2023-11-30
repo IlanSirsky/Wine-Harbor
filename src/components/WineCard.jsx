@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/wineCard.css';
+import '../styles/wines/wineCard.css';
 import { Link } from 'react-router-dom';
 
 const WineCard = (props) => {

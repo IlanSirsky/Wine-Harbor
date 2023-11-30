@@ -4,7 +4,7 @@ import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
 import wines from '../assests/data/wine-data.js';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import '../styles/detailsPage.css';
+import '../styles/details/detailsPage.css';
 
 
 const DetailsPage = () => {

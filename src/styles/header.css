@@ -4,6 +4,24 @@
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 24px;
-  /* Change font size */
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0 30px;
+}
+
+.bg-custom {
+  background-color: #43484b;
+}
+
+.custom-navbar .nav-link {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #e48f45;
+}
+
+.spaced-link {
+  margin-right: 15px;
 }

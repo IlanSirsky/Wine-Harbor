@@ -1,0 +1,67 @@
+.home-section {
+  margin: 75px 50px;
+  background-color: #f5cca027;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
+
+.home-section .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.home-section .text {
+  font-family: 'alata', 'sans-serif';
+  font-size: 1.2em;
+  margin: 20px 60px;
+  color: #f5cca0;
+  text-align: justify;
+}
+
+.home-section .section-title {
+  font-family: 'Cormorant Infant';
+  font-size: 3em;
+  color: #e48f45;
+}
+
+.home-section img {
+  height: 100%;
+  width: auto;
+  /* Adjust width as per the image's aspect ratio */
+  max-width: 100%;
+  /* Maximum width for the image */
+}
+
+.home-section .underline-animation {
+  position: relative;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: 20px;
+  font-family: 'alata', 'sans-serif';
+  color: #e48f45;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.home-section .underline-animation::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e48f45;
+  transition: width 0.3s ease-in-out;
+}
+
+.home-section .underline-animation:hover::before {
+  width: 100%;
+}
+
+body {
+  background-color: #1e1b10;
+}

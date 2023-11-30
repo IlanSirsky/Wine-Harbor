@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/napa-valley-california-wine-country-vineyard-field-royalty-free-image-1657062881.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    /* Text color */
+}
+
+.container h1 {
+    font-family: 'Cormorant Infant';
+    font-size: 5em;
+    color: #ffffff;
+    font-weight: 400;
+}

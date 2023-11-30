@@ -3,7 +3,11 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;}
+  height: 70px;
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/napa-valley-california-wine-country-vineyard-field-royalty-free-image-1657062881.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 footer p {
   color: #ccc;

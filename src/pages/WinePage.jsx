@@ -4,7 +4,7 @@ import Footer from "../components/Footer.jsx";
 import WineCard from '../components/WineCard.jsx';
 import wines from '../assests/data/wine-data.js';
 
-import '../styles/winesPage.css';
+import '../styles/wines/winesPage.css';
 
 const ShopPage = () => {
     const limitedWines = wines.slice(0, 50);
